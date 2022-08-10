@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.button{
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+#buttonStart{
+    width: 75px;
+    height: 40px;
+    background-color: green;
+}
+
+#buttonStop{
+    width: 75px;
+    height: 40px;
+    background-color: red;
+}
+
+.canvas {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#sceneCanvas{
+    background-color: rgb(0, 0, 0);
+    display: block;
+    border-radius: 5px;
+}
+
+.planetCreation {
+    display: block;
+}
+
+input[type=number] {
+    width: 30px;
+}
